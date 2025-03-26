@@ -20,6 +20,9 @@ jobs:
       - name: Run App
         run: npm run start
 
+      - name: send request
+        run : curl -X GET http://localhost:8080
+
     
           
           
