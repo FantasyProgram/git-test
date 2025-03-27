@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main 
+      - moderator
 jobs:
   setup:
     runs-on: ubuntu-latest
