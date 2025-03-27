@@ -20,8 +20,9 @@ jobs:
       
       - run: docker build -t myapp . 
 
-      - run: nohup docker run -t myapp
-
+      - run: |
+          nohup docker run -t myapp
+          sleep 8
       - run: curl -X get http://localhost:8080
           
           
